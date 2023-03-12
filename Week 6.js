@@ -23,8 +23,7 @@ class Deck{
         this.value =[ '1', '2', '3', '4', '5', '6', '7','8', '9', '10', '11', '12', '13']
         this.rank =['2', '3', '4', '5', '6', '7', '8', '9', '10', 'Jack', 'Queen', 'King', 'Ace']
         // console.log("creating cards...");   
-    }
-}
+
 
 // Change here
     createCards();{
@@ -33,7 +32,7 @@ class Deck{
         console.log(i,"suit","", this.suit[i]);
     }
 
-
+    
     for (let j = 0; j < this.rank.length; j++); {
             console.log(i,'rank',"", this.rank[j]);
             
@@ -95,6 +94,8 @@ class Deck{
         } else{
             console.log("It's a TIE !!!");
         }
+    }
+}
     }
 }
     }
